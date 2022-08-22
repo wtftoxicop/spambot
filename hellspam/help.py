@@ -16,8 +16,8 @@ Buttons = [
 ], [
     Button.inline("Extras", b'extras')
 ], [
-    Button.url("Channel", "t.me/HellSpamBot"),
-    Button.url("Group", "t.me/HellSpam_SupportChat")
+    Button.url("Channel", "https://telegra.ph/file/0538467a48071262148fd.jpg"),
+    Button.url("Group", "https://telegra.ph/file/0538467a48071262148fd.jpg")
 ]
 
 BACK = [
