@@ -7,8 +7,8 @@ from telethon import events, Button
 
 
 data  = [
-    Button.url("Repo", url="https://GitHub.com/TeamHell/HellSpamBot"),
-    Button.url("Support", url="t.me/HellSpam_SupportChat")
+    Button.url("Repo", url="https://telegra.ph/file/0538467a48071262148fd.jpg"),
+    Button.url("Support", url="https://telegra.ph/file/0538467a48071262148fd.jpg")
   ]
 
 
@@ -31,7 +31,7 @@ async def start(e):
             sudo_user = "False"
         ON_START = f"""
 Hey {mention},
-This Is Hell Spam Bot!
+This Is TOXIC Spam Bot!
 A Powerful Telegram Spam Bot, fast and stable !
 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -47,6 +47,6 @@ A Powerful Telegram Spam Bot, fast and stable !
 ✪ Creator:- {creator}
 
 
-© @HellSpamBot
+© @OFFICIALDANGEROUSFIGHTER
 """
         await e.client.send_file(e.chat_id, DISPLAY_PIC, caption=ON_START, buttons=data)
